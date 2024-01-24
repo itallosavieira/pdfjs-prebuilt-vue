@@ -1,22 +1,23 @@
 {
   "name": "pdfjs-iframe",
-  "version": "0.1.0-beta.2",
-  "description": "PDF.js Iframe Component",
-  "main": "index.js",
+  "private": true,
+  "version": "1.0.0-alpha.0",
+  "type": "module",
   "scripts": {
-    "test": "test()"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itallosavieira/pdfjs-iframe.git"
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "path2d-polyfill": "^2.0.1",
+    "vue": "^3.3.11"
   },
-  "keywords": [
-    "pdf"
-  ],
-  "author": "Itallo Sa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itallosavieira/pdfjs-iframe/issues"
-  },
-  "homepage": "https://github.com/itallosavieira/pdfjs-iframe#readme"
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
 }
