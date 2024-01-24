@@ -1,0 +1,1 @@
+export { default as VuePdfViewer } from "@/components/PdfViewer.vue"
