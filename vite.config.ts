@@ -21,6 +21,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "Vue3PdfRender",
+      formats: ["es"],
       fileName: (format) => `vue3-pdf-render.${format}.js`,
     },
 

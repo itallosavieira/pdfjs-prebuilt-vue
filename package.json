@@ -1,21 +1,21 @@
 {
   "name": "vue3-pdf-render",
   "private": false,
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/itallosavieira/vue-pdf-viewer"
+    "url": "https://github.com/itallosavieira/vue3-pdf-render"
   },
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-pdf-viewer.umd.js",
-  "module": "./dist/vue-pdf-viewer.es.js",
+  "main": "./dist/vue3-pdf-render.umd.js",
+  "module": "./dist/vue3-pdf-render.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-pdf-viewer.es.js",
-      "require": "./dist/vue-pdf-viewer.umd.js"
+      "import": "./dist/vue3-pdf-render.es.js",
+      "require": "./dist/vue3-pdf-render.umd.js"
     }
   },
   "types": "./dist/types/index.d.ts",
