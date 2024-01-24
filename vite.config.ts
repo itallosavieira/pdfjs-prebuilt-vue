@@ -20,8 +20,8 @@ export default defineConfig({
     target: "esnext",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "VuePdfViewer",
-      fileName: (format) => `vue-pdf-viewer.${format}.js`,
+      name: "Vue3PdfRender",
+      fileName: (format) => `vue3-pdf-render.${format}.js`,
     },
 
     rollupOptions: {

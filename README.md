@@ -1,6 +1,6 @@
 # Vue PDF Viewer
 
-`vue-pdf-viewer` is a Vue.js library that provides a pre-styled component for PDF viewing in the browser using the PDF.js library.
+`vue3-pdf-render` is a Vue.js library that provides a pre-styled component for PDF viewing in the browser using the PDF.js library.
 
 
 ## Installation
@@ -9,33 +9,25 @@ You can install the library via:
 
 npm:
 ```bash
-npm install vue-pdf-viewer
+npm install vue3-pdf-render
 ```
 
 yarn:
 ```bash
-yarn add vue-pdf-viewer
+yarn add vue3-pdf-render
 ```
 
 pnpm:
 ```bash
-pnpm add vue-pdf-viewer
+pnpm add vue3-pdf-render
 ```
 
 
 ## Usage
 
-### Global Registration
-
-```javascript
-import Vue from 'vue';
-import VuePdfViewer from 'vue-pdf-viewer';
-
-Vue.use(VuePdfViewer);
-```
-
-
 ### Component Usage
+import { PdfViewer } from 'vue3-pdf-render';
+
 ```vue
 <script setup lang="ts">
   pdfUrl: 'path/to/your/file.pdf',
@@ -46,7 +38,7 @@ Vue.use(VuePdfViewer);
 
 <template>
   <div>
-    <VuePdfViewer :pdf-url="pdfUrl" :options="viewerOptions" />
+    <PdfViewer :pdf-url="pdfUrl" :options="viewerOptions" />
   </div>
 </template>
 ```

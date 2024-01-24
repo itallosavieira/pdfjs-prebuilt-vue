@@ -1,1 +1,1 @@
-export { default as VuePdfViewer } from "@/components/PdfViewer.vue"
+export { default as PdfViewer } from "@/components/PdfViewer.vue"
