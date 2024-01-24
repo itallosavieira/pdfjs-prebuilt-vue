@@ -19,7 +19,7 @@ yarn add vue-pdf-viewer
 
 pnpm:
 ```bash
-yarn add vue-pdf-viewer
+pnpm add vue-pdf-viewer
 ```
 
 
