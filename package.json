@@ -1,0 +1,22 @@
+{
+  "name": "pdfjs-iframe",
+  "version": "0.1.0-beta.0",
+  "description": "PDF.js Iframe Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "test()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itallosavieira/pdfjs-iframe.git"
+  },
+  "keywords": [
+    "pdf"
+  ],
+  "author": "Itallo Sa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itallosavieira/pdfjs-iframe/issues"
+  },
+  "homepage": "https://github.com/itallosavieira/pdfjs-iframe#readme"
+}
