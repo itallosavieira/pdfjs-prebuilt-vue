@@ -60,9 +60,3 @@ Vue.use(VuePdfViewer);
 
 ### Contributions
 Contributions are welcome! Feel free to open issues, submit pull requests, or report problems.
-
-
-### License
-This project is licensed under the MIT License - see the LICENSE.md file for more details.
-
-Feel free to copy and use it as needed. If you have any further modifications or questions, please let me know!
