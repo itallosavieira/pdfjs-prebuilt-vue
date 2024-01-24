@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import PdfjsIframe from './components/PdfjsIframe.vue'
-import SamplePdf from './assets/sample.pdf'
+import SamplePdf from '/assets/sample.pdf'
 </script>
 
 <template>
