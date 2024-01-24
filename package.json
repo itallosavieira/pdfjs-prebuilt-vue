@@ -1,11 +1,10 @@
 {
   "name": "pdfjs-iframe",
-  "private": true,
   "version": "1.0.0-alpha.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,5 +18,15 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vue-tsc": "^1.8.25"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "module": "./dist/pdfjs-iframe.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/pdfjs-iframe.es.js"
+    }
+  },
+  "files": [
+    "dist/**"
+  ]
 }

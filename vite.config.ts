@@ -1,8 +1,6 @@
 import { resolve } from "path";
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-
-// https://vitejs.dev/config/
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
@@ -10,10 +8,13 @@ export default defineConfig({
     "**/*.html"
   ],
   build: {
+    minify: false,
     outDir: "dist",
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       name: "PdfjsIframe",
+      formats: ["es"],
+      fileName: (format) => `pdfjs-iframe.${format}.js`,
     },
     rollupOptions: {
       external: ["vue", "@vueuse/core"],
