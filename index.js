@@ -1,4 +1,4 @@
-exports.PdfjsIframe = (pdfBlob) => {
+const PdfjsIframe = (pdfBlob) => {
   const currentScriptUrl = new URL(import.meta.url);
   const basePath = new URL('./pdfjs/web/viewer.html', currentScriptUrl).hre
   return `
@@ -8,3 +8,5 @@ exports.PdfjsIframe = (pdfBlob) => {
       height="1000px">
     </iframe>`;
 }
+
+export default PdfjsIframe;
